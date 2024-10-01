@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+
+main{
+    width:500px;
+    height:750px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 20px;
+   
+}
+
+.container{
+   
+}
+
+header img{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.music-icon{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+  
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.discription{
+    font-size: 20px;
+    color: #333;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.music-icon{
+    background-color:  hsl(225, 100%, 98%);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    margin-left: 20px;
+    
+}
+
+
+h2{
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+
+span{
+    font-size: 20px;
+    color: #333;
+    margin-left: 20px;
+    margin-top:10px;
+    
+}
+
+.change-link{
+    margin-left: 60px;  
+    font-size: 18px;
+
+}
+
+.Payment{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 10px 10px 10px rgba(110, 94, 94, 0.199);
+}
+
+.cancle{
+    text-align: center;
+    margin-top: 20px;
+    color: #666363;
+    font-size: 27px;
+}
+
+.intro{
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+/* For smaller screens (up to 768px wide) */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 15px;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    .music-icon {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .discription, span, .change-link, .intro {
+        width: 90%;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .Payment {
+        width: 90%;
+        padding: 15px;
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .cancle {
+        font-size: 20px;
+    }
+}
+
+/* For very small screens (up to 480px wide) */
+@media (max-width: 480px) {
+    main {
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    .music-icon {
+        padding: 15px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2, span {
+        font-size: 16px;
+    }
+
+    .discription, .Payment {
+        font-size: 14px;
+    }
+
+    .cancle {
+        font-size: 18px;
+    }
+}
